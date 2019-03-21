@@ -1,0 +1,581 @@
+/*헤더*/
+.navbar {
+	color: white;
+	margin-bottom: 0;
+	background-color: #5e6b92;
+	z-index: 9999;
+	border: 0;
+	font-size: 10px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+	font-family: Montserrat, sans-serif;
+}
+
+.navbar li a, .navbar .navbar-brand {
+	color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #5e6b92 !important;
+	background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+}
+
+.dropdown div, .dropdown strong {
+	color: #777;
+}
+
+.dropdown-menu li {
+	display: block;
+}
+
+.dropdown-menu li:last-child {
+	margin-right: 0;
+}
+
+.dropdown-menu li a {
+	padding: 3px 20px;
+	min-height: 0;
+}
+
+.dropdown-menu li a div {
+	white-space: normal;
+}
+
+.dropdown-alerts {
+	width: 310px;
+	min-width: 0;
+	margin-left: -123px;
+	margin-left: auto;
+}
+
+/*푸터*/
+.footer-distributed {
+	background-color: #444444;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+	padding: 45px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left p {
+	color: #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-distributed p.footer-links {
+	font-size: 18px;
+	font-weight: bold;
+	color: #eee;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a {
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer-distributed .footer-right {
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color: #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #eee;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+@media ( max-width : 600px) {
+	.footer-distributed .footer-left, .footer-distributed .footer-right {
+		text-align: center;
+	}
+	.footer-distributed .footer-right {
+		float: none;
+		margin: auto;
+	}
+	.footer-distributed .footer-left p.footer-links {
+		line-height: 1.8;
+	}
+}
+
+/*카테고리*/
+@media screen and (min-width: 600px) {
+	.navbar-brand-centered {
+		position: absolute;
+		left: 45%;
+		display: block;
+		width: 250px;
+		text-align: center;
+		background-color: #5e6b92;
+	}
+	.navbar>.container .navbar-brand-centered, .navbar>.container-fluid .navbar-brand-centered
+		{
+		margin-left: -40px;
+	}
+}
+
+/* ------------------------------------------------------------------- */
+.panel-heading {
+	color: #333;
+	background-color: #fff;
+	border-color: #ddd;
+}
+
+.panel-footer {
+	background-color: #fff;
+	border-color: #ddd;
+}
+
+.post .post-heading {
+	height: 95px;
+	padding: 20px 15px;
+}
+
+.post .post-heading .avatar {
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin-right: 15px;
+}
+
+.post .post-heading .meta .title {
+	margin-bottom: 0;
+}
+
+.post .post-heading .meta .title a {
+	color: black;
+}
+
+.post .post-heading .meta .title a:hover {
+	color: #aaaaaa;
+}
+
+.post .post-heading .meta .time {
+	margin-top: 8px;
+	color: #999;
+}
+
+.post .post-image .image {
+	width: 100%;
+	height: auto;
+}
+
+.post .post-description {
+	padding: 15px;
+}
+
+.post .post-description p {
+	font-size: 14px;
+}
+
+.post .post-description .stats {
+	margin-top: 20px;
+}
+
+.post .post-description .stats .stat-item {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.post .post-description .stats .stat-item .icon {
+	margin-right: 8px;
+}
+
+.post .post-footer {
+	border-top: 1px solid #ddd;
+	padding: 15px;
+}
+
+.post .post-footer .input-group-addon a {
+	color: #454545;
+}
+
+.post .post-footer .comments-list {
+	padding: 0;
+	margin-top: 20px;
+	list-style-type: none;
+}
+
+.post .post-footer .comments-list .comment {
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.post .post-footer .comments-list .comment .avatar {
+	width: 35px;
+	height: 35px;
+}
+
+.post .post-footer .comments-list .comment .comment-heading {
+	display: block;
+	width: 100%;
+}
+
+.post .post-footer .comments-list .comment .comment-heading .user {
+	font-size: 14px;
+	font-weight: bold;
+	display: inline;
+	margin-top: 0;
+	margin-right: 10px;
+}
+
+.post .post-footer .comments-list .comment .comment-heading .time {
+	font-size: 12px;
+	color: #aaa;
+	margin-top: 0;
+	display: inline;
+}
+
+.post .post-footer .comments-list .comment .comment-body {
+	margin-left: 50px;
+}
+
+.post .post-footer .comments-list .comment>.comments-list {
+	margin-left: 50px;
+}
+
+/*위치확인*/
+
+/* Breadcrumbs from http://bootsnipp.com/snippets/featured/triangle-breadcrumbs-arrows */
+.btn-breadcrumb .btn:not (:last-child ):after {
+	content: " ";
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 17px solid transparent;
+	border-bottom: 17px solid transparent;
+	border-left: 10px solid white;
+	position: absolute;
+	top: 50%;
+	margin-top: -17px;
+	left: 100%;
+	z-index: 3;
+}
+
+.btn-breadcrumb .btn:not (:last-child ):before {
+	content: " ";
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 17px solid transparent;
+	border-bottom: 17px solid transparent;
+	border-left: 10px solid rgb(173, 173, 173);
+	position: absolute;
+	top: 50%;
+	margin-top: -17px;
+	margin-left: 1px;
+	left: 100%;
+	z-index: 3;
+}
+
+.btn-breadcrumb .btn {
+	padding: 6px 12px 6px 24px;
+}
+
+.btn-breadcrumb .btn:first-child {
+	padding: 6px 6px 6px 10px;
+}
+
+.btn-breadcrumb .btn:last-child {
+	padding: 6px 18px 6px 24px;
+}
+
+/** Default button **/
+.btn-breadcrumb .btn.btn-default:not (:last-child ):after {
+	border-left: 10px solid #fff;
+}
+
+.btn-breadcrumb .btn.btn-default:not (:last-child ):before {
+	border-left: 10px solid #ccc;
+}
+
+.btn-breadcrumb .btn.btn-default:hover:not (:last-child ):after {
+	border-left: 10px solid #ebebeb;
+}
+
+.btn-breadcrumb .btn.btn-default:hover:not (:last-child ):before {
+	border-left: 10px solid #adadad;
+}
+
+/* The responsive part */
+.btn-breadcrumb>*>div {
+	/* With less: .text-overflow(); */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.btn-breadcrumb>*:nth-child(n+2) {
+	display: none;
+}
+
+/* === For phones =================================== */
+@media ( max-width : 767px) {
+	.btn-breadcrumb>*:nth-last-child(-n+2) {
+		display: block;
+	}
+	.btn-breadcrumb>* div {
+		max-width: 60px;
+	}
+}
+
+/* === For tablets ================================== */
+@media ( min-width : 768px) and (max-width:991px) {
+	.btn-breadcrumb>*:nth-last-child(-n+4) {
+		display: block;
+	}
+	.btn-breadcrumb>* div {
+		max-width: 100px;
+	}
+}
+
+/* === For desktops ================================== */
+@media ( min-width : 992px) {
+	.btn-breadcrumb>*:nth-last-child(-n+6) {
+		display: block;
+	}
+	.btn-breadcrumb>* div {
+		max-width: 170px;
+	}
+}
+
+/*내용*/
+/* Portlet */
+.portlet {
+	background: #fff;
+	padding: 20px;
+}
+
+.portlet.portlet-gray {
+	background: #f7f7f7;
+}
+
+.portlet.portlet-bordered {
+	border: 1px solid #eee;
+}
+
+/* Portlet Title */
+.portlet-title {
+	padding: 0;
+	min-height: 40px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 18px;
+}
+
+.caption {
+	float: left;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.caption.caption-red .caption-subject, .caption.caption-red i {
+	color: #5e6b92;
+	font-weight: 200;
+}
+
+.caption i {
+	color: #777;
+	font-size: 15px;
+	font-weight: 300;
+	margin-top: 3px;
+}
+
+.caption-subject {
+	color: #666;
+	font-size: 16px;
+}
+
+.caption-day {
+	color: #666;
+	font-size: 13px;
+}
+
+.caption-helper {
+	padding: 0;
+	margin: 0;
+	line-height: 13px;
+	color: #9eacb4;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+/* Actions */
+.actions {
+	float: right;
+	display: inline-block;
+}
+
+.actions a {
+	margin-left: 3px;
+}
+
+.actions .btn {
+	color: #666;
+	padding: 3px 9px;
+	font-size: 13px;
+	line-height: 1.5;
+	background-color: #fff;
+	border-color: #ccc;
+	border-radius: 50px;
+}
+
+.actions .btn i {
+	font-size: 12px;
+}
+
+.actions .btn:hover {
+	background: #f2f2f2;
+}
+
+/* Pagination */
+.pagination {
+	margin: -3px 0 0;
+	border-radius: 0px;
+	border: none;
+}
+
+.pagination>li>a, .pagination>li>span {
+	padding: 4px 10px;
+	font-size: 12px;
+	color: #8775a7;
+	border: none;
+}
+
+.pagination>li:hover>a, .pagination>li.active>a, .pagination>li.active:hover>a
+	{
+	color: #fff;
+	background: #5E6B9E;
+	border-color: #5E6B9E;
+	border: none;
+}
+
+/* Tab */
+.portlet-title>.nav-tabs {
+	background: none;
+	margin: 0;
+	float: right;
+	display: inline-block;
+	border: 0;
+}
+
+.portlet-title>.nav-tabs>li {
+	background: none;
+	margin: 0;
+	border: 0;
+}
+
+.portlet-title>.nav-tabs>li>a {
+	background: none;
+	border: 0;
+	padding: 2px 10px 13px;
+	color: #444;
+}
+
+.portlet-title>.nav-tabs>li.active, .portlet-title>.nav-tabs>li.active:hover
+	{
+	border-bottom: 4px solid #5E6B9E;
+	position: relative;
+}
+
+.portlet-title>.nav-tabs>li:hover {
+	border-bottom: 4px solid #F1F0F0;
+}
+
+.portlet-title>.nav-tabs>li.active>a, .portlet-title>.nav-tabs>li:hover>a
+	{
+	color: #333;
+	background: #fff;
+	border: 0;
+}
+
+/* Btn Circle */
+.actions .btn.btn-circle {
+	width: 28px;
+	height: 28px;
+	padding: 3px 7px;
+	text-align: center;
+}
+
+.actions .btn.btn-circle i {
+	font-size: 11px;
+}
+
+/* Btn ef */
+.actions .btn.btn-ef.active, .actions .btn.btn-ef:hover {
+	color: #fff;
+	box-shadow: none;
+	background: #5e6b92;
+	border-color: #5e6b92;
+}
+
+/*첨부파일 dropdown*/
+ul.dropdown-file {
+	min-width: 250px;
+}
+
+ul.dropdown-file li .item {
+	display: block;
+	padding: 3px 10px;
+	margin: 3px 0;
+}
+
+ul.dropdown-file li .item:hover {
+	background-color: #f3f3f3;
+}
+
+ul.dropdown-file li .item:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+ul.dropdown-file li .item-left {
+	float: left;
+}
+
+ul.dropdown-file li .item-left img, ul.dropdown-file li .item-left span.item-info
+	{
+	float: left;
+}
+
+ul.dropdown-file li .item-left span.item-info {
+	margin-left: 10px;
+}
+
+ul.dropdown-file li .item-left span.item-info span {
+	display: block;
+}
+
+ul.dropdown-file li .item-right {
+	float: right;
+}
+
+ul.dropdown-file li .item-right button {
+	margin-top: 0px;
+}

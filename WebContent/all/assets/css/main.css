@@ -1,0 +1,591 @@
+body {
+	font: 400 15px Lato, sans-serif;
+	line-height: 1.8;
+	color: #818181;
+}
+
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #303030;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+h4 {
+	font-size: 19px;
+	line-height: 1.375em;
+	color: #303030;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.jumbotron {
+	/*background-image: url("/assets/img/planet.png");*/
+	background-size: cover;
+	height: auto;
+	background-color: #876087;
+	color: #fff;
+	padding: 50px 80px;
+	font-family: Montserrat, sans-serif;
+}
+
+.container-fluid {
+	padding: 10px 50px;
+}
+
+.bg-grey {
+	background-color: #f6f6f6;
+}
+
+.logo-small {
+	color: #876087;
+	font-size: 50px;
+}
+
+.logo {
+	color: #876087;
+	font-size: 200px;
+}
+
+.thumbnail {
+	padding: 0 0 15px 0;
+	border: none;
+	border-radius: 0;
+}
+
+.thumbnail img {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+}
+
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
+	color: #eee;
+}
+
+.carousel-indicators li {
+	border-color: #eee;
+}
+
+.carousel-indicators li.active {
+	background-color: #eee;
+}
+
+.item h4 {
+	font-size: 19px;
+	line-height: 1.375em;
+	font-weight: 400;
+	font-style: italic;
+	margin: 70px 0;
+}
+
+.item span {
+	font-style: normal;
+}
+
+.panel {
+	border: 1px solid #5e6b92;
+	border-radius: 0 !important;
+	transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+.panel-footer .btn:hover {
+	border: 1px solid #5e6b92;
+	background-color: #fff !important;
+	color: #5e6b92;
+}
+
+.panel-heading {
+	color: #fff !important;
+	background-color: #5e6b92 !important;
+	padding: 5px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+	background-color: white !important;
+}
+
+.panel-footer h3 {
+	font-size: 32px;
+}
+
+.panel-footer h4 {
+	color: #aaa;
+	font-size: 14px;
+}
+
+.panel-footer .btn {
+	margin: 15px 0;
+	background-color: #876087;
+	color: #fff;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background-color: #5e6b92;
+	z-index: 9999;
+	border: 0;
+	font-size: 10px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+	font-family: Montserrat, sans-serif;
+}
+
+.navbar li a, .navbar .navbar-brand {
+	color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #5e6b92 !important;
+	background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+}
+
+.navbar-default .stickytop {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+footer .glyphicon {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #876087;
+}
+
+.slideanim {
+	visibility: hidden;
+}
+
+.slide {
+	animation-name: slide;
+	-webkit-animation-name: slide;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	visibility: visible;
+}
+
+@
+keyframes slide { 0% {
+	opacity: 0;
+	transform: translateY(70%);
+}
+
+100%
+{
+opacity
+:
+ 
+1;
+transform
+:
+ 
+translateY
+(0%);
+
+  
+}
+}
+@
+-webkit-keyframes slide { 0% {
+	opacity: 0;
+	-webkit-transform: translateY(70%);
+}
+
+100%
+{
+opacity
+:
+ 
+1;
+-webkit-transform
+:
+ 
+translateY
+(0%);
+
+  
+}
+}
+@media screen and (max-width: 768px) {
+	.col-sm-4 {
+		text-align: center;
+		margin: 25px 0;
+	}
+	.btn-lg {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.logo {
+		font-size: 150px;
+	}
+}
+
+/*직접 추가*/
+.search {
+	margin: auto;
+	width: 50%;
+}
+
+.search-right {
+	float: right;
+	width: 20%;
+	margin-right: 50px;
+}
+
+.search-right input {
+	border-radius: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	-webkit-appearance: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.search-right button {
+	border-width: 0px;
+	border-radius: 0px;
+}
+
+#planet {
+	width: 150px;
+	height: 150px;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+#planet-img {
+	width: 150px;
+	height: 150px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.search-center {
+	width: 20%;
+	margin: auto;
+}
+
+.search-center input {
+	border-radius: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	-webkit-appearance: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.search-center button {
+	border: 0px;
+}
+
+input:focus {
+	outline: none;
+}
+
+#wrapper {
+	display: flex;
+}
+
+#main {
+	order: 1;
+	padding: 2em;
+}
+
+#side {
+	order: 2;
+}
+
+.label-job {
+	background-color: #5e6b92;
+	border : none;
+}
+.label-job-type {
+	background-color: #eee;
+	color : #333;
+	border : none;
+}
+.label-job-magam {
+	background-color: #d8695f;
+	border : none;
+}
+.label-day {
+	background-color: #5e6b92;
+	border : none;
+}
+
+/*todolsit*/
+body {
+	margin: 0;
+	min-width: 250px;
+}
+
+/* Include the padding and border in an element's total width and height */
+* {
+	box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+div[id="todo"] ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* Style the list items */
+div[id="todo"] ul li {
+	cursor: pointer;
+	position: relative;
+	padding: 12px 8px 12px 40px;
+	/*background: #f9f9f9;*/
+	font-size: 15px;
+	transition: 0.2s;
+	/* make the list items unselectable */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+/*div[id="todo"] ul li:nth-child(odd) {
+  background: #f9f9f9;
+}*/
+
+/* Darker background-color on hover */
+div[id="todo"] ul li:hover {
+	background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+div[id="todo"] ul li.checked {
+	background: #5e6b92;
+	color: #fff;
+	text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+div[id="todo"] ul li.checked::before {
+	content: '';
+	position: absolute;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 0 2px 2px 0;
+	top: 10px;
+	left: 16px;
+	transform: rotate(45deg);
+	height: 15px;
+	width: 7px;
+}
+
+/* Style the close button */
+.close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+	background-color: #5e6b92;
+	color: white;
+}
+
+/* Style the header */
+.header {
+	padding: 30px 40px;
+	text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Style the input */
+#myInput {
+	border: none;
+	width: 75%;
+	padding: 10px;
+	float: left;
+	font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+	padding: 10px;
+	width: 25%;
+	background: #d9d9d9;
+	color: #555;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.3s;
+	border: none;
+}
+
+.addBtn:hover {
+	background-color: #bbb;
+}
+
+/*직접 추가*/
+.dropdown div, .dropdown strong {
+	color: #777;
+}
+
+.dropdown span {
+	color: #ccc;
+}
+
+.dropdown-menu li {
+	display: block;
+}
+
+.dropdown-menu li:last-child {
+	margin-right: 0;
+}
+
+.dropdown-menu li a {
+	padding: 3px 20px;
+	min-height: 0;
+}
+
+.dropdown-menu li a div {
+	white-space: normal;
+}
+
+.dropdown-alerts {
+	width: 310px;
+	min-width: 0;
+	margin-left: -123px;
+	margin-left: auto;
+}
+#myPage::-webkit-scrollbar-track {
+	background-color: #eee;
+}
+
+#myPage::-webkit-scrollbar {
+	width: 5px;
+	background-color: #eee;
+}
+
+#myPage::-webkit-scrollbar-thumb {
+	background-color: rgba(94, 107, 146, 1);
+}
+
+
+#myUL::-webkit-scrollbar-track {
+	background-color: #eee;
+}
+
+#myUL::-webkit-scrollbar {
+	width: 5px;
+	background-color: #eee;
+}
+
+#myUL::-webkit-scrollbar-thumb {
+	background-color: rgba(94, 107, 146, 0.5);
+	
+}
+#toDo::-webkit-scrollbar-track {
+	background-color: #eee;
+}
+
+#toDo::-webkit-scrollbar {
+	width: 5px;
+	background-color: #eee;
+}
+
+#toDo::-webkit-scrollbar-thumb {
+	background-color: rgba(94, 107, 146, 0.5);
+	
+}
+
+#momo::-webkit-scrollbar-track {
+	background-color: #eee;
+}
+
+#momo::-webkit-scrollbar {
+	width: 5px;
+	background-color: #eee;
+}
+
+#momo::-webkit-scrollbar-thumb {
+	background-color: rgba(94, 107, 146, 0.5);
+	
+}
+
+#choocheonBtn {
+	font-size: 20px;
+	border:none; width:50%; padding-top:0px; padding-bottom:20px; 
+	background-color: #fff;	
+	color : #444;
+}
+
+
+#choocheonBtn .active{
+	border-color : #5e6b92 !important;
+}
+
+#tc .active {
+    background-color: #eee !important;
+    border-color : #5e6b92 !important;
+    color : #333 !important;
+}
+
+#momo .active {
+    background-color: #eee !important;
+    border-color : #5e6b92 !important;
+    color : #333 !important;
+}
+
+button .active {
+	border-color : #5e6b92 !important;
+}
+
+.btn-modal {
+	background-color: #5e6b92;
+	color : #eee;
+	border : none;
+	width : 30%;
+	float:right;
+	
+}
+
+#modalBr {
+	font-size : 20px;
+}
+
+select {
+    
+    padding-left: 10px;
+    font-size: 18px;
+    
+    border: 1px solid #5e6b92;
+    border-radius: 3px;
+}

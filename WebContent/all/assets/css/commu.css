@@ -1,0 +1,458 @@
+/*헤더*/
+.navbar {
+	margin-bottom: 0;
+	background-color: #5e6b92;
+	z-index: 9999;
+	border: 0;
+	font-size: 10px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+	font-family: Montserrat, sans-serif;
+}
+
+.navbar li a, .navbar .navbar-brand {
+	color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #5e6b92 !important;
+	background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+}
+
+.dropdown div, .dropdown strong {
+	color: #777;
+}
+
+.dropdown-menu li {
+	display: block;
+}
+
+.dropdown-menu li:last-child {
+	margin-right: 0;
+}
+
+.dropdown-menu li a {
+	padding: 3px 20px;
+	min-height: 0;
+}
+
+.dropdown-menu li a div {
+	white-space: normal;
+}
+
+.dropdown-alerts {
+	width: 310px;
+	min-width: 0;
+	margin-left: -123px;
+	margin-left: auto;
+}
+
+/*푸터*/
+.footer-distributed {
+	background-color: #444444;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+	padding: 45px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left p {
+	color: #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-distributed p.footer-links {
+	font-size: 18px;
+	font-weight: bold;
+	color: #eee;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a {
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer-distributed .footer-right {
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color: #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #eee;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+@media ( max-width : 600px) {
+	.footer-distributed .footer-left, .footer-distributed .footer-right {
+		text-align: center;
+	}
+	.footer-distributed .footer-right {
+		float: none;
+		margin: auto;
+	}
+	.footer-distributed .footer-left p.footer-links {
+		line-height: 1.8;
+	}
+}
+
+/*카테고리*/
+@media screen and (min-width: 600px) {
+	.navbar-brand-centered {
+		position: absolute;
+		left: 45%;
+		display: block;
+		width: 250px;
+		text-align: center;
+		background-color: #5e6b92;
+	}
+	.navbar>.container .navbar-brand-centered, .navbar>.container-fluid .navbar-brand-centered
+		{
+		margin-left: -40px;
+	}
+}
+
+/* ------------------------------------------------------------------- */
+.content {
+	padding: 30px;
+}
+
+.margin-bottom-10 {
+	margin-bottom: -25px;
+}
+
+/* Portlet */
+.portlet {
+	background: #fff;
+	padding: 20px;
+}
+
+.portlet.portlet-gray {
+	background: #f7f7f7;
+}
+
+.portlet.portlet-bordered {
+	border: 1px solid #eee;
+}
+
+/* Portlet Title */
+.portlet-title {
+	padding: 0;
+	min-height: 40px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 18px;
+}
+
+.caption {
+	float: left;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.caption i {
+	color: #777;
+	font-size: 15px;
+	font-weight: 300;
+	margin-top: 3px;
+}
+
+.caption-subject {
+	color: #666;
+	font-size: 16px;
+}
+
+.caption-day {
+	color: #666;
+	font-size: 13px;
+}
+
+.caption-helper {
+	padding: 0;
+	margin: 0;
+	line-height: 13px;
+	color: #9eacb4;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+/* Actions */
+.actions {
+	float: right;
+	display: inline-block;
+}
+
+.actions a {
+	margin-left: 3px;
+}
+
+.actions .btn {
+	color: #666;
+	padding: 3px 9px;
+	font-size: 13px;
+	line-height: 1.5;
+	background-color: #fff;
+	border-color: #ccc;
+	border-radius: 50px;
+}
+
+.actions .btn i {
+	font-size: 12px;
+}
+
+.actions .btn:hover {
+	background: #f2f2f2;
+}
+
+/* Pagination */
+.pagination {
+	margin: -3px 0 0;
+	border-radius: 30px;
+	border: none;
+}
+
+.pagination>li>a, .pagination>li>span {
+	padding: 4px 10px;
+	font-size: 12px;
+	color: #8775a7;
+	border: none;
+	border-radius: 30px;
+}
+
+.pagination>li:hover>a, .pagination>li.active>a, .pagination>li.active:hover>a
+	{
+	color: #fff;
+	background: #5E6B9E;
+	border-color: #5E6B9E;
+	border: none;
+	border-radius: 30px;
+}
+
+/* Tab */
+.portlet-title>.nav-tabs {
+	background: none;
+	margin: 0;
+	float: right;
+	display: inline-block;
+	border: 0;
+}
+
+.portlet-title>.nav-tabs>li {
+	background: none;
+	margin: 0;
+	border: 0;
+}
+
+.portlet-title>.nav-tabs>li>a {
+	background: none;
+	border: 0;
+	padding: 2px 10px 13px;
+	color: #444;
+}
+
+.portlet-title>.nav-tabs>li.active, .portlet-title>.nav-tabs>li.active:hover
+	{
+	border-bottom: 4px solid #5E6B9E;
+	position: relative;
+}
+
+.portlet-title>.nav-tabs>li:hover {
+	border-bottom: 4px solid #F1F0F0;
+}
+
+.portlet-title>.nav-tabs>li.active>a, .portlet-title>.nav-tabs>li:hover>a
+	{
+	color: #333;
+	background: #fff;
+	border: 0;
+}
+
+/* Btn Circle */
+.actions .btn.btn-circle {
+	width: 28px;
+	height: 28px;
+	padding: 3px 7px;
+	text-align: center;
+}
+
+.actions .btn.btn-circle i {
+	font-size: 11px;
+}
+
+/* Btn Red */
+.actions .btn.btn-red.active, .actions .btn.btn-red:hover {
+	color: #fff;
+	box-shadow: none;
+	background: #5e6b92;
+	border-color: #5e6b92;
+}
+
+/*검색*/
+.quick-search-form .form-control {
+	height: 35px;
+	padding: 8px 15px;
+	color: #a4a4a4;
+	/* change  color of text to be typed inside search box */
+	font-size: 13px;
+	line-height: 20px;
+	background-color: transparent;
+	border: 1px solid #ccc;
+	border-radius: 0 !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.btn-custom {
+	color: #FFFFFF;
+	background-color: #5e6b92; /* change  button color */
+	border-radius: 0 !important; /* button border radius */
+	padding: 6px 10px; /* Button size change*/
+	text-align: right;
+}
+
+.btn-custom:hover {
+	background-color: #8794C4; /* change  button color on hover */
+	border-radius: 0 !important;
+}
+
+.custom-glyph-color {
+	color: #fff; /* change  magnifying glass color in  button */
+}
+
+.custom-glyph-color:hover {
+	color: #D1D1D1;
+	/* change  magnifying glass color in  button on mouse hover */
+}
+
+/*정렬*/
+.dropdown-toggle {
+	border: none;
+	border-radius: 0px;
+}
+
+/*순위*/
+table, tr, td {
+	border: 0px;
+	table-layout: fixed;
+	word-break: break-all;
+	height: auto;
+}
+
+.rank {
+	border: 0px;
+	width: 10%;
+	text-align: center;
+}
+
+.rank_title {
+	border: 0px;
+	width: 60%;
+	text-align: left;
+}
+
+.rank_date {
+	border: 0px;
+	width: 30%;
+	text-align: right;
+}
+
+/*알람 dropdown*/
+ul.dropdown-alarm {
+	min-width: 250px;
+}
+
+ul.dropdown-alarm li .item {
+	display: block;
+	padding: 3px 10px;
+	margin: 3px 0;
+}
+
+ul.dropdown-alarm li .item:hover {
+	background-color: #f3f3f3;
+}
+
+ul.dropdown-alarm li .item:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+ul.dropdown-alarm li .item-left {
+	float: left;
+}
+
+ul.dropdown-alarm li .item-left img, ul.dropdown-alarm li .item-left span.item-info
+	{
+	float: left;
+}
+
+ul.dropdown-alarm li .item-left span.item-info {
+	margin-left: 10px;
+}
+
+ul.dropdown-alarm li .item-left span.item-info span {
+	display: block;
+}
+
+ul.dropdown-alarm li .item-right {
+	float: right;
+}
+
+ul.dropdown-alarm li .item-right button {
+	margin-top: 14px;
+}
+
+/*내활동*/
+.media {
+	margin: 20px 0;
+	padding: 30px;
+}
+
+.dp {
+	margin-right: 5px;
+	border: 10px solid #eee;
+	transition: all 0.2s ease-in-out;
+}
+
+.dp:hover {
+	border: 2px solid #eee;
+	transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
+
+/*커뮤니티 BEST부분*/
+.com_best {
+	width: 100%;
+	height: 150px;
+}
+
+/*a태그*/
+a [class="slink"] {
+	text-decoration: none;
+}
